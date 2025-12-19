@@ -25,7 +25,7 @@ export default function Products({ addToCart }) {
       }
 
       try {
-        const res = await fetch("http://localhost:5000/api/products", {
+        const res = await fetch("http://56.228.2.255:6116/api/products", {
           method: "GET",
           headers: {
             "Content-Type": "application/json",
