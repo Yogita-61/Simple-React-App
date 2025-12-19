@@ -15,7 +15,7 @@ export default function Register({ onRegister }) {
       return;
     }
 
-    const res = await fetch("http://56.228.2.255:6116/api/auth/register", {
+    const res = await fetch("http://51.21.221.149:5000/api/auth/register", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(form),
